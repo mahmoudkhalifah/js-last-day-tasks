@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>get well soon cards</title>
+    <style>
+        div {
+            text-align: center;
+        }
+        table {
+            margin: auto;
+        }
+    </style>
+</head>
+<script src="script.js"></script>
+
+<body onload="init()">
+    <div class="center">
+        <h1>Generate get well soon card</h1>
+        <table>
+            <tr>
+                <td>
+                    <img src="images/gws.jpg" width="100" height="100">
+                    <br>
+                    <input type="radio" name="image" value="gws">
+                </td>
+                <td>
+                    <img src="images/gws2.jpg" width="100" height="100">
+                    <br>
+                    <input type="radio" name="image" value="gws2">
+                </td>
+                <td>
+                    <img src="images/gws3.jpg" width="100" height="100">
+                    <br>
+                    <input type="radio" name="image" value="gws3">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="images/gwsf.jpg" width="100" height="100">
+                    <br>
+                    <input type="radio" name="image" value="gwsf">
+                </td>
+                <td>
+                    <img src="images/gwsf2.jpg" width="100" height="100">
+                    <br>
+                    <input type="radio" name="image" value="gwsf2">
+                </td>
+                <td>
+                    <img src="images/gwsf3.jpg" width="100" height="100">
+                    <br>
+                    <input type="radio" name="image" value="gwsf3">
+                </td>
+            </tr>
+        </table>
+
+        <h2>personal message</h2>
+        <textarea style="resize: none;" cols="30" rows="5"></textarea>
+        <br>
+        <input type="button" value="generate" id="btn" onclick="generate()">
+    </div>
+</body>
+
+</html>
